@@ -40,7 +40,7 @@ function schedule(kitab, ustaz, lang, masjid) {
     datecontent.innerHTML = day;
     let div = document.createElement('div');
     let qirat = `
-    <div class="row bg-info mb-3 ">
+    <div class="row alert alert-success mb-3 ">
         <div class="col-8">
             <h2><i class="fa fa-book"></i> ${kitab} </h2>
             <h4><i class="fa fa-microphone-alt"></i> ${ustaz} </h4>
